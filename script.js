@@ -9,7 +9,7 @@ const emails = [
     'giovanni@live.it'
 ];
 
-let mailUtente = "giovanni@live.it";
+let mailUtente = prompt('inserisci mail');
 let emailFound = false;
 
 for (let i = 0; i < emails.length; i++) {
